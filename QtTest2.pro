@@ -18,16 +18,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    uindicatorbutton.cpp \
     utabwidget.cpp \
     utouchbutton.cpp
 
 HEADERS += \
     mainwindow.h \
+    uindicatorbutton.h \
     utabwidget.h \
     utouchbutton.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    uindicatorbutton.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
