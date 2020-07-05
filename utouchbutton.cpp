@@ -15,11 +15,11 @@ UTouchButton::UTouchButton(QWidget *parent)
     }
     QPushButton:hover{
         color: lightgray;
-        background:url(:/icon/OIP1.jpg);;
+        background:url(:/icon/OIP1.jpg);
     }
     QPushButton:pressed {
         color: lightgray;
-        background:url(:/icon/OIP2.jpg) ;;
+        background:url(:/icon/OIP2.jpg) ;
         padding-top: -15px;
         padding-bottom: -17px;
     })";
@@ -31,7 +31,6 @@ UTouchButton::UTouchButton(QWidget *parent)
 
 void UTouchButton::mousePressEvent(QMouseEvent *e)
 {
-    printf("%s",this->objectName());
     QString objName = objectName();
     qDebug()<<objName;
     QPushButton::mousePressEvent(e);

@@ -18,10 +18,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    utabwidget.cpp \
     utouchbutton.cpp
 
 HEADERS += \
     mainwindow.h \
+    utabwidget.h \
     utouchbutton.h
 
 FORMS += \

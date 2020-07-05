@@ -3,5 +3,7 @@
         <file>icon/OIP.jpg</file>
         <file>icon/OIP1.jpg</file>
         <file>icon/OIP2.jpg</file>
+        <file>icon/main_backgroud.jpg</file>
+        <file>icon/6821.png</file>
     </qresource>
 </RCC>
